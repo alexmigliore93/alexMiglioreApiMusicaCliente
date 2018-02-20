@@ -22,7 +22,9 @@
       var rol = $("#rol option:selected").val();
       //alert(rol)
       $.ajax({
-        url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/create.json',
+        url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/create.json',
+        // http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/create.json
+        //http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/create.json
         dataType: 'json',
         type: 'POST',
         data: {
@@ -58,7 +60,9 @@
           headers: {
           'Authorization' : sessionStorage.getItem('token')
          },
-          url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/deleteUser.json',
+          url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/deleteUser.json',
+          //// http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/deleteUser.json
+          //http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/deleteUser.json
           dataType: 'json',
           type: 'POST',
           data: {

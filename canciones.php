@@ -18,6 +18,7 @@
 		          'Authorization' : sessionStorage.getItem('token')
 		         },
 		        url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/create.json',
+            // http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/create.json
 		        dataType: 'json',
 		        type: 'POST',
 		        data: {
@@ -51,7 +52,9 @@
           headers: {
           'Authorization' : sessionStorage.getItem('token')
          },
-          url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/delete.json',
+          url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/delete.json',
+          // http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/delete.json
+          // http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/delete.json
           dataType: 'json',
           type: 'POST',
           data: {
@@ -91,7 +94,9 @@
         headers: {
          'Authorization' : sessionStorage.getItem('token')
         },
-        url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/songs.json',
+        url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/songs.json',
+      //    http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/songs.json
+      //  http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/songs.json
         dataType: 'json',
         type: 'GET',
         data: {
@@ -114,7 +119,9 @@
           sessionStorage.setItem('id', id);
          // alert("Cambio de pagina");
         // alert(id);
-          location.href="http://localhost:8888/AlexMiglioreAPIMusicaCliente/modificarcancion.php"
+          location.href="http://81.169.234.32/alexander/AlexMiglioreAPIMusicaCliente/modificarcancion.php"
+          // http://81.169.234.32/alexander/AlexMiglioreAPIMusicaCliente/modificarcancion.php
+          // http://localhost:8888/AlexMiglioreAPIMusicaCliente/modificarcancion.php
       }
       </script>
 

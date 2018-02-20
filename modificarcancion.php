@@ -18,7 +18,9 @@
 				headers: {
 			         'Authorization' : sessionStorage.getItem('token')
 			        },
-				url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/update.json',
+				url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/update.json',
+				 // http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/songs/update.json
+				 // http://localhost:8888/alexMiglioreAPIFinal/public/index.php/songs/update.json
 				dataType: 'json',
 				type: 'POST',
 				data: {

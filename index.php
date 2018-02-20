@@ -12,7 +12,9 @@
       var password = $(".password").val();
       e.preventDefault();
       $.ajax({
-        url: 'http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/login.json',
+        url: 'http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/login.json',
+        // http://81.169.234.32/alexander/alexMiglioreAPIFinal/public/index.php/users/login.json
+        //http://localhost:8888/alexMiglioreAPIFinal/public/index.php/users/login.json
         dataType: 'json',
         type: 'GET',
         data: {
