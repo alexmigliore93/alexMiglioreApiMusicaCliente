@@ -119,7 +119,7 @@
           sessionStorage.setItem('id', id);
          // alert("Cambio de pagina");
         // alert(id);
-          location.href="http://81.169.234.32/alexander/AlexMiglioreApiMusicaCliente/modificarcancion.php"
+          location.href="http://81.169.234.32/alexander/alexMiglioreApiMusicaCliente/modificarcancion.php"
           // http://81.169.234.32/alexander/AlexMiglioreAPIMusicaCliente/modificarcancion.php
           // http://localhost:8888/AlexMiglioreAPIMusicaCliente/modificarcancion.php
       }
